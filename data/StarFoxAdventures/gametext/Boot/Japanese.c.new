@@ -1,0 +1,326 @@
+/*----------------------------------------------------------------------*
+  Project: Starfox Adventures on Dinosuar Planet - For GameCube
+  File:    D:\binary\gametext/Boot/Japanese.c.new
+  Copyright 2001 Rare Ltd.  All rights reserved.
+
+  These coded instructions, statements, and computer programs contain
+  proprietary information of Rare Ltd, and are protected by Federal
+  copyright law.  They may not be disclosed to third parties or copied
+  or duplicated in any form, in whole or in part, without the prior
+  written consent of Rare Ltd.
+
+  This file is machine generated, edits will be lost!
+ *----------------------------------------------------------------------*/
+
+
+
+// ********************************************************************************
+// *	Includes
+// ********************************************************************************
+#include "GameTextData.h"
+
+
+
+// ********************************************************************************
+// *	Characters used by Japanese text in Boot
+// ********************************************************************************
+
+/*
+typedef struct {
+	UCS4		character;	// unicode number
+	unsigned short	xpos;		// coordinate of leftmost texel in font bitmap
+	unsigned short	ypos;		// coordinate of topmost texel in font bitmap
+	signed char	left;		// spacing
+	signed char	right;		// spacing
+	signed char	top;		// spacing
+	signed char	bottom;		// spacing
+	unsigned char	width;		// size
+	unsigned char	height;		// size
+	unsigned char	font;		// Index into GameTextFonts[] in GameTextData.h
+	unsigned char	texture;	// Index into Textures[] in the binary file
+} characterStruct;
+*/
+
+characterStruct Boot_Japanese_characters[] = {
+//	NOTE
+//	NOTE: remember to convert from unicode to SJIS if using the Japanese ROM font
+//	NOTE
+//	unicode	xpos	ypos	left	right	top	bottom	width	height	font	texture
+	{12456,	1,	1,	0,	1,	3,	2,	20,	16,	0,	0},	// katakana letter e
+	{12521,	22,	1,	1,	1,	2,	1,	19,	18,	0,	0},	// katakana letter ra
+	{12540,	42,	1,	0,	1,	8,	10,	20,	3,	0,	0},	// katakana-hiragana prolonged sound mark
+	{12364,	63,	1,	0,	0,	0,	1,	21,	20,	0,	0},	// hiragana letter ga
+	{30330,	85,	1,	0,	1,	0,	1,	20,	20,	0,	0},	// name unknown
+	{29983,	106,	1,	0,	1,	0,	2,	20,	19,	0,	0},	// name unknown
+	{12375,	127,	1,	3,	2,	1,	1,	16,	19,	0,	0},	// hiragana letter si
+	{12414,	144,	1,	1,	2,	1,	1,	18,	19,	0,	0},	// hiragana letter ma
+	{12383,	163,	1,	0,	2,	1,	1,	19,	19,	0,	0},	// hiragana letter ta
+	{12290,	183,	1,	0,	13,	13,	1,	8,	7,	0,	0},	// ideographic full stop
+	{32,	192,	1,	12,	0,	21,	0,	0,	0,	0,	0},	// space
+	{26412,	193,	1,	0,	1,	0,	1,	20,	20,	0,	0},	// name unknown
+	{20307,	214,	1,	0,	1,	0,	0,	20,	21,	0,	0},	// name unknown
+	{12398,	235,	1,	1,	1,	1,	2,	19,	18,	0,	0},	// hiragana letter no
+	{12497,	255,	1,	0,	0,	0,	1,	21,	20,	0,	0},	// katakana letter pa
+	{12527,	277,	1,	1,	2,	2,	1,	18,	18,	0,	0},	// katakana letter wa
+	{12508,	296,	1,	0,	0,	0,	1,	21,	20,	0,	0},	// katakana letter bo
+	{12479,	318,	1,	0,	2,	2,	1,	19,	18,	0,	0},	// katakana letter ta
+	{12531,	338,	1,	1,	2,	2,	1,	18,	18,	0,	0},	// katakana letter n
+	{12434,	357,	1,	0,	2,	1,	1,	19,	19,	0,	0},	// hiragana letter wo
+	{25276,	377,	1,	0,	1,	0,	0,	20,	21,	0,	0},	// name unknown
+	{12390,	398,	1,	1,	1,	2,	1,	19,	18,	0,	0},	// hiragana letter te
+	{38651,	418,	1,	0,	1,	1,	1,	20,	19,	0,	0},	// name unknown
+	{28304,	439,	1,	0,	1,	0,	1,	20,	20,	0,	0},	// name unknown
+	{79,	460,	1,	0,	1,	1,	2,	11,	18,	0,	0},	// latin capital letter o
+	{70,	472,	1,	1,	1,	1,	2,	10,	18,	0,	0},	// latin capital letter f
+	{12395,	483,	1,	1,	2,	1,	1,	18,	19,	0,	0},	// hiragana letter ni
+	{21462,	1,	23,	0,	1,	1,	0,	20,	20,	0,	0},	// name unknown
+	{25201,	22,	23,	0,	1,	0,	1,	20,	20,	0,	0},	// name unknown
+	{35500,	43,	23,	0,	1,	0,	1,	20,	20,	0,	0},	// name unknown
+	{26126,	64,	23,	1,	2,	1,	1,	18,	19,	0,	0},	// name unknown
+	{26360,	83,	23,	0,	1,	0,	0,	20,	21,	0,	0},	// name unknown
+	{25351,	104,	23,	0,	1,	0,	0,	20,	21,	0,	0},	// name unknown
+	{31034,	125,	23,	0,	1,	1,	1,	20,	19,	0,	0},	// name unknown
+	{24467,	146,	23,	0,	1,	0,	1,	20,	20,	0,	0},	// name unknown
+	{12387,	167,	23,	1,	3,	5,	2,	17,	14,	0,	0},	// hiragana letter small tu
+	{19979,	185,	23,	0,	1,	1,	1,	20,	19,	0,	0},	// name unknown
+	{12373,	206,	23,	1,	1,	1,	1,	19,	19,	0,	0},	// hiragana letter sa
+	{12356,	226,	23,	1,	2,	2,	2,	18,	17,	0,	0},	// hiragana letter i
+	{12487,	245,	23,	0,	0,	0,	1,	21,	20,	0,	0},	// katakana letter de
+	{12451,	267,	23,	2,	3,	3,	0,	16,	18,	0,	0},	// katakana letter small i
+	{12473,	284,	23,	1,	1,	2,	1,	19,	18,	0,	0},	// katakana letter su
+	{12463,	304,	23,	0,	2,	2,	1,	19,	18,	0,	0},	// katakana letter ku
+	{35501,	324,	23,	0,	1,	0,	1,	20,	20,	0,	0},	// name unknown
+	{12417,	345,	23,	0,	1,	1,	1,	20,	19,	0,	0},	// hiragana letter me
+	{12379,	366,	23,	0,	1,	1,	1,	20,	19,	0,	0},	// hiragana letter se
+	{12435,	387,	23,	0,	1,	1,	1,	20,	19,	0,	0},	// hiragana letter n
+	{12391,	408,	23,	1,	0,	2,	1,	20,	18,	0,	0},	// hiragana letter de
+	{12367,	429,	23,	2,	3,	1,	1,	16,	19,	0,	0},	// hiragana letter ku
+	{12431,	446,	23,	0,	1,	1,	1,	20,	19,	0,	0},	// hiragana letter wa
+	{12399,	467,	23,	1,	1,	1,	1,	19,	19,	0,	0},	// hiragana letter ha
+	{12362,	487,	23,	0,	1,	1,	1,	20,	19,	0,	0},	// hiragana letter o
+	{12415,	1,	45,	0,	1,	1,	1,	20,	19,	0,	0},	// hiragana letter mi
+	{36796,	22,	45,	0,	1,	1,	1,	20,	19,	0,	0},	// name unknown
+	{12377,	43,	45,	0,	1,	0,	1,	20,	20,	0,	0},	// hiragana letter su
+	{12459,	64,	45,	0,	2,	1,	2,	19,	18,	0,	0},	// katakana letter ka
+	{12496,	84,	45,	0,	1,	1,	1,	20,	19,	0,	0},	// katakana letter ba
+	{38283,	105,	45,	1,	2,	1,	0,	18,	20,	0,	0},	// name unknown
+	{12466,	124,	45,	0,	0,	0,	1,	21,	20,	0,	0},	// katakana letter ge
+	{12512,	146,	45,	0,	1,	1,	2,	20,	18,	0,	0},	// katakana letter mu
+	{32154,	167,	45,	0,	1,	0,	1,	20,	20,	0,	0},	// name unknown
+	{12369,	188,	45,	2,	1,	1,	1,	18,	19,	0,	0},	// hiragana letter ke
+	{12427,	207,	45,	1,	2,	2,	1,	18,	18,	0,	0},	// hiragana letter ru
+	{22580,	226,	45,	0,	1,	1,	0,	20,	20,	0,	0},	// name unknown
+	{21512,	247,	45,	0,	1,	0,	0,	20,	21,	0,	0},	// name unknown
+	{38281,	268,	45,	1,	2,	1,	0,	18,	20,	0,	0},	// name unknown
+	{12300,	287,	45,	12,	1,	0,	4,	8,	17,	0,	0},	// left corner bracket
+	{12501,	296,	45,	1,	2,	2,	1,	18,	18,	0,	0},	// katakana letter hu
+	{12457,	315,	45,	2,	2,	3,	1,	17,	17,	0,	0},	// katakana letter small o
+	{12483,	333,	45,	2,	3,	4,	1,	16,	16,	0,	0},	// katakana letter small tu
+	{12450,	350,	45,	1,	1,	2,	1,	19,	18,	0,	0},	// katakana letter a
+	{12489,	370,	45,	3,	1,	1,	1,	17,	19,	0,	0},	// katakana letter do
+	{12505,	388,	45,	0,	0,	1,	2,	21,	18,	0,	0},	// katakana letter be
+	{12481,	410,	45,	0,	1,	1,	1,	20,	19,	0,	0},	// katakana letter ti
+	{12515,	431,	45,	1,	2,	3,	1,	18,	17,	0,	0},	// katakana letter small ya
+	{12301,	450,	45,	0,	13,	3,	0,	8,	18,	0,	0},	// right corner bracket
+	{12475,	459,	45,	0,	2,	1,	2,	19,	18,	0,	0},	// katakana letter se
+	{12488,	479,	45,	3,	2,	1,	1,	16,	19,	0,	0},	// katakana letter to
+	{12371,	1,	67,	1,	2,	3,	2,	18,	16,	0,	0},	// hiragana letter ko
+	{12354,	20,	67,	1,	2,	0,	1,	18,	20,	0,	0},	// hiragana letter a
+	{12426,	39,	67,	3,	3,	1,	1,	15,	19,	0,	0},	// hiragana letter ri
+	{12288,	55,	67,	21,	0,	21,	0,	0,	0,	0,	0},	// ideographic space
+	{12525,	56,	67,	1,	2,	2,	2,	18,	17,	0,	0},	// katakana letter ro
+	{20013,	75,	67,	1,	2,	0,	0,	18,	21,	0,	0},	// name unknown
+	{8230,	94,	67,	1,	2,	8,	9,	18,	4,	0,	0},	// horizontal ellipsis
+};
+
+
+// ********************************************************************************
+// *	Strings used by Japanese texts in Boot
+// ********************************************************************************
+
+// TEXT_ERROR_CRITICAL
+static UTF8 Japanese_825_0[] = {0};		// WARNING - empty string
+static UTF8 Japanese_825_1[] = {0xE3,0x82,0xA8,0xE3,0x83,0xA9,0xE3,0x83,0xBC,0xE3,0x81,0x8C,0xE7,0x99,0xBA,0xE7,0x94,0x9F,0xE3,0x81,0x97,0xE3,0x81,0xBE,0xE3,0x81,0x97,0xE3,0x81,0x9F,0xE3,0x80,0x82,' ',0};
+static UTF8 Japanese_825_2[] = {0xE6,0x9C,0xAC,0xE4,0xBD,0x93,0xE3,0x81,0xAE,0xE3,0x83,0x91,0xE3,0x83,0xAF,0xE3,0x83,0xBC,0xE3,0x83,0x9C,0xE3,0x82,0xBF,0xE3,0x83,0xB3,0xE3,0x82,0x92,0};
+static UTF8 Japanese_825_3[] = {0xE6,0x8A,0xBC,0xE3,0x81,0x97,0xE3,0x81,0xA6,0xE9,0x9B,0xBB,0xE6,0xBA,0x90,0xE3,0x82,0x92,'O','F','F',0xE3,0x81,0xAB,0xE3,0x81,0x97,0};
+static UTF8 Japanese_825_4[] = {0xE6,0x9C,0xAC,0xE4,0xBD,0x93,0xE3,0x81,0xAE,0xE5,0x8F,0x96,0xE6,0x89,0xB1,0xE8,0xAA,0xAC,0xE6,0x98,0x8E,0xE6,0x9B,0xB8,0xE3,0x81,0xAE,0};
+static UTF8 Japanese_825_5[] = {0xE6,0x8C,0x87,0xE7,0xA4,0xBA,0xE3,0x81,0xAB,0xE5,0xBE,0x93,0xE3,0x81,0xA3,0xE3,0x81,0xA6,0xE4,0xB8,0x8B,0xE3,0x81,0x95,0xE3,0x81,0x84,0xE3,0x80,0x82,0};
+static UTF8 Japanese_825_6[] = {0};		// WARNING - empty string
+static UTF8 *Japanese_825[] = {
+	&Japanese_825_0,
+	&Japanese_825_1,
+	&Japanese_825_2,
+	&Japanese_825_3,
+	&Japanese_825_4,
+	&Japanese_825_5,
+	&Japanese_825_6,
+};
+
+// TEXT_ERROR_DISC_UNREADABLE
+static UTF8 Japanese_826_0[] = {0};		// WARNING - empty string
+static UTF8 Japanese_826_1[] = {0xE3,0x83,0x87,0xE3,0x82,0xA3,0xE3,0x82,0xB9,0xE3,0x82,0xAF,0xE3,0x82,0x92,0xE8,0xAA,0xAD,0xE3,0x82,0x81,0xE3,0x81,0xBE,0xE3,0x81,0x9B,0xE3,0x82,0x93,0xE3,0x81,0xA7,0xE3,0x81,0x97,0xE3,0x81,0x9F,0xE3,0x80,0x82,0};
+static UTF8 Japanese_826_2[] = {0xE3,0x81,0x8F,0xE3,0x82,0x8F,0xE3,0x81,0x97,0xE3,0x81,0x8F,0xE3,0x81,0xAF,0xE6,0x9C,0xAC,0xE4,0xBD,0x93,0xE3,0x81,0xAE,0xE5,0x8F,0x96,0xE6,0x89,0xB1,0xE8,0xAA,0xAC,0xE6,0x98,0x8E,0xE6,0x9B,0xB8,0xE3,0x82,0x92,0};
+static UTF8 Japanese_826_3[] = {0xE3,0x81,0x8A,0xE8,0xAA,0xAD,0xE3,0x81,0xBF,0xE4,0xB8,0x8B,0xE3,0x81,0x95,0xE3,0x81,0x84,0xE3,0x80,0x82,0};
+static UTF8 *Japanese_826[] = {
+	&Japanese_826_0,
+	&Japanese_826_1,
+	&Japanese_826_2,
+	&Japanese_826_3,
+};
+
+// TEXT_READING_DISC
+static UTF8 Japanese_827_0[] = {0};		// WARNING - empty string
+static UTF8 Japanese_827_1[] = {0xE3,0x83,0x87,0xE3,0x82,0xA3,0xE3,0x82,0xB9,0xE3,0x82,0xAF,0xE3,0x82,0x92,0};
+static UTF8 Japanese_827_2[] = {0xE8,0xAA,0xAD,0xE3,0x81,0xBF,0xE8,0xBE,0xBC,0xE3,0x82,0x93,0xE3,0x81,0xA7,0xE3,0x81,0x84,0xE3,0x81,0xBE,0xE3,0x81,0x99,0xE3,0x80,0x82,0};
+static UTF8 *Japanese_827[] = {
+	&Japanese_827_0,
+	&Japanese_827_1,
+	&Japanese_827_2,
+};
+
+// TEXT_CLOSE_DISC_COVER
+static UTF8 Japanese_828_0[] = {0};		// WARNING - empty string
+static UTF8 Japanese_828_1[] = {0xE3,0x83,0x87,0xE3,0x82,0xA3,0xE3,0x82,0xB9,0xE3,0x82,0xAF,0xE3,0x82,0xAB,0xE3,0x83,0x90,0xE3,0x83,0xBC,0xE3,0x81,0x8C,0};
+static UTF8 Japanese_828_2[] = {0xE9,0x96,0x8B,0xE3,0x81,0x84,0xE3,0x81,0xA6,0xE3,0x81,0x84,0xE3,0x81,0xBE,0xE3,0x81,0x99,0xE3,0x80,0x82,0};
+static UTF8 Japanese_828_3[] = {0xE3,0x82,0xB2,0xE3,0x83,0xBC,0xE3,0x83,0xA0,0xE3,0x82,0x92,0xE7,0xB6,0x9A,0xE3,0x81,0x91,0xE3,0x82,0x8B,0xE5,0xA0,0xB4,0xE5,0x90,0x88,0xE3,0x81,0xAF,0};
+static UTF8 Japanese_828_4[] = {0xE3,0x83,0x87,0xE3,0x82,0xA3,0xE3,0x82,0xB9,0xE3,0x82,0xAF,0xE3,0x82,0xAB,0xE3,0x83,0x90,0xE3,0x83,0xBC,0xE3,0x82,0x92,0};
+static UTF8 Japanese_828_5[] = {0xE9,0x96,0x89,0xE3,0x82,0x81,0xE3,0x81,0xA6,0xE4,0xB8,0x8B,0xE3,0x81,0x95,0xE3,0x81,0x84,0xE3,0x80,0x82,0};
+static UTF8 *Japanese_828[] = {
+	&Japanese_828_0,
+	&Japanese_828_1,
+	&Japanese_828_2,
+	&Japanese_828_3,
+	&Japanese_828_4,
+	&Japanese_828_5,
+};
+
+// TEXT_INSERT_GAME_DISC
+static UTF8 Japanese_829_0[] = {0};		// WARNING - empty string
+static UTF8 Japanese_829_1[] = {0xE3,0x80,0x8C,0xE3,0x82,0xB9,0xE3,0x82,0xBF,0xE3,0x83,0xBC,0xE3,0x83,0x95,0xE3,0x82,0xA9,0xE3,0x83,0x83,0xE3,0x82,0xAF,0xE3,0x82,0xB9,0};
+static UTF8 Japanese_829_2[] = {0xE3,0x82,0xA2,0xE3,0x83,0x89,0xE3,0x83,0x99,0xE3,0x83,0xB3,0xE3,0x83,0x81,0xE3,0x83,0xA3,0xE3,0x83,0xBC,0xE3,0x80,0x8D,0xE3,0x81,0xAE,0};
+static UTF8 Japanese_829_3[] = {0xE3,0x83,0x87,0xE3,0x82,0xA3,0xE3,0x82,0xB9,0xE3,0x82,0xAF,0xE3,0x82,0x92,0};
+static UTF8 Japanese_829_4[] = {0xE3,0x82,0xBB,0xE3,0x83,0x83,0xE3,0x83,0x88,0xE3,0x81,0x97,0xE3,0x81,0xA6,0xE4,0xB8,0x8B,0xE3,0x81,0x95,0xE3,0x81,0x84,0xE3,0x80,0x82,0};
+static UTF8 Japanese_829_5[] = {0};		// WARNING - empty string
+static UTF8 *Japanese_829[] = {
+	&Japanese_829_0,
+	&Japanese_829_1,
+	&Japanese_829_2,
+	&Japanese_829_3,
+	&Japanese_829_4,
+	&Japanese_829_5,
+};
+
+// TEXT_ERROR_WRONG_DISC
+static UTF8 Japanese_830_0[] = {0};		// WARNING - empty string
+static UTF8 Japanese_830_1[] = {0xE3,0x81,0x93,0xE3,0x81,0xAE,0xE3,0x83,0x87,0xE3,0x82,0xA3,0xE3,0x82,0xB9,0xE3,0x82,0xAF,0xE3,0x81,0xAF,0};
+static UTF8 Japanese_830_2[] = {0xE3,0x82,0xB9,0xE3,0x82,0xBF,0xE3,0x83,0xBC,0xE3,0x83,0x95,0xE3,0x82,0xA9,0xE3,0x83,0x83,0xE3,0x82,0xAF,0xE3,0x82,0xB9,0};
+static UTF8 Japanese_830_3[] = {0xE3,0x82,0xA2,0xE3,0x83,0x89,0xE3,0x83,0x99,0xE3,0x83,0xB3,0xE3,0x83,0x81,0xE3,0x83,0xA3,0xE3,0x83,0xBC,0xE3,0x81,0xAE,0};
+static UTF8 Japanese_830_4[] = {0xE3,0x83,0x87,0xE3,0x82,0xA3,0xE3,0x82,0xB9,0xE3,0x82,0xAF,0xE3,0x81,0xA7,0xE3,0x81,0xAF,0xE3,0x81,0x82,0xE3,0x82,0x8A,0xE3,0x81,0xBE,0xE3,0x81,0x9B,0xE3,0x82,0x93,0xE3,0x80,0x82,0};
+static UTF8 Japanese_830_5[] = {0xE3,0x80,0x80,0};
+static UTF8 Japanese_830_6[] = {0xE3,0x82,0xB9,0xE3,0x82,0xBF,0xE3,0x83,0xBC,0xE3,0x83,0x95,0xE3,0x82,0xA9,0xE3,0x83,0x83,0xE3,0x82,0xAF,0xE3,0x82,0xB9,0};
+static UTF8 Japanese_830_7[] = {0xE3,0x82,0xA2,0xE3,0x83,0x89,0xE3,0x83,0x99,0xE3,0x83,0xB3,0xE3,0x83,0x81,0xE3,0x83,0xA3,0xE3,0x83,0xBC,0xE3,0x81,0xAE,0};
+static UTF8 Japanese_830_8[] = {0xE3,0x83,0x87,0xE3,0x82,0xA3,0xE3,0x82,0xB9,0xE3,0x82,0xAF,0xE3,0x82,0x92,0xE3,0x82,0xBB,0xE3,0x83,0x83,0xE3,0x83,0x88,0xE3,0x81,0x97,0xE3,0x81,0xA6,0xE4,0xB8,0x8B,0xE3,0x81,0x95,0xE3,0x81,0x84,0xE3,0x80,0x82,0};
+static UTF8 *Japanese_830[] = {
+	&Japanese_830_0,
+	&Japanese_830_1,
+	&Japanese_830_2,
+	&Japanese_830_3,
+	&Japanese_830_4,
+	&Japanese_830_5,
+	&Japanese_830_6,
+	&Japanese_830_7,
+	&Japanese_830_8,
+};
+
+// DiscOpenBootError_1381
+static UTF8 Japanese_1381_0[] = {0xE3,0x83,0xAD,0xE3,0x83,0xBC,0xE3,0x83,0x89,0xE4,0xB8,0xAD,0xE2,0x80,0xA6,0};
+static UTF8 *Japanese_1381[] = {
+	&Japanese_1381_0,
+};
+
+
+
+// ********************************************************************************
+// *	Japanese gametexts in Boot
+// ********************************************************************************
+
+/*
+typedef struct {
+	unsigned short	identifier;	// which game text is this
+	unsigned short	numPhrases;	// how many phrases this text has
+	unsigned char	window;		// preferred window
+	unsigned char	alignH;		// horizontal alignment
+	unsigned char	alignV;		// vertical alignment
+	unsigned char	language;	// LANGUAGE_xxx from GameTextData.h
+	UTF8		**phrases;	// pointer to <numPhrases> pointers to localised strings
+} gametextStruct;
+*/
+
+gametextStruct Boot_Japanese_texts[] = {
+	{
+		TEXT_ERROR_CRITICAL, // (825)
+		7,		// numPhrases
+		129,		// window
+		0,		// horizontalAlign
+		0,		// verticalAlign
+		LANGUAGE_JAPANESE,
+		&Japanese_825,	// strings table
+	},
+	{
+		TEXT_ERROR_DISC_UNREADABLE, // (826)
+		4,		// numPhrases
+		129,		// window
+		0,		// horizontalAlign
+		0,		// verticalAlign
+		LANGUAGE_JAPANESE,
+		&Japanese_826,	// strings table
+	},
+	{
+		TEXT_READING_DISC, // (827)
+		3,		// numPhrases
+		129,		// window
+		0,		// horizontalAlign
+		0,		// verticalAlign
+		LANGUAGE_JAPANESE,
+		&Japanese_827,	// strings table
+	},
+	{
+		TEXT_CLOSE_DISC_COVER, // (828)
+		6,		// numPhrases
+		129,		// window
+		0,		// horizontalAlign
+		0,		// verticalAlign
+		LANGUAGE_JAPANESE,
+		&Japanese_828,	// strings table
+	},
+	{
+		TEXT_INSERT_GAME_DISC, // (829)
+		6,		// numPhrases
+		129,		// window
+		0,		// horizontalAlign
+		0,		// verticalAlign
+		LANGUAGE_JAPANESE,
+		&Japanese_829,	// strings table
+	},
+	{
+		TEXT_ERROR_WRONG_DISC, // (830)
+		9,		// numPhrases
+		129,		// window
+		0,		// horizontalAlign
+		0,		// verticalAlign
+		LANGUAGE_JAPANESE,
+		&Japanese_830,	// strings table
+	},
+	{
+		DiscOpenBootError_1381, // (1381)
+		1,		// numPhrases
+		147,		// window
+		0,		// horizontalAlign
+		0,		// verticalAlign
+		LANGUAGE_JAPANESE,
+		&Japanese_1381,	// strings table
+	},
+};
+
+
+  

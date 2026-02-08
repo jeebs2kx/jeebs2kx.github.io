@@ -1,0 +1,254 @@
+/*----------------------------------------------------------------------*
+  Project: Starfox Adventures on Dinosuar Planet - For GameCube
+  File:    D:\binary\gametext/Boot/Italian.c.new
+  Copyright 2001 Rare Ltd.  All rights reserved.
+
+  These coded instructions, statements, and computer programs contain
+  proprietary information of Rare Ltd, and are protected by Federal
+  copyright law.  They may not be disclosed to third parties or copied
+  or duplicated in any form, in whole or in part, without the prior
+  written consent of Rare Ltd.
+
+  This file is machine generated, edits will be lost!
+ *----------------------------------------------------------------------*/
+
+
+
+// ********************************************************************************
+// *	Includes
+// ********************************************************************************
+#include "GameTextData.h"
+
+
+
+// ********************************************************************************
+// *	Characters used by Italian text in Boot
+// ********************************************************************************
+
+/*
+typedef struct {
+	UCS4		character;	// unicode number
+	unsigned short	xpos;		// coordinate of leftmost texel in font bitmap
+	unsigned short	ypos;		// coordinate of topmost texel in font bitmap
+	signed char	left;		// spacing
+	signed char	right;		// spacing
+	signed char	top;		// spacing
+	signed char	bottom;		// spacing
+	unsigned char	width;		// size
+	unsigned char	height;		// size
+	unsigned char	font;		// Index into GameTextFonts[] in GameTextData.h
+	unsigned char	texture;	// Index into Textures[] in the binary file
+} characterStruct;
+*/
+
+characterStruct Boot_Italian_characters[] = {
+//	unicode	xpos	ypos	left	right	top	bottom	width	height	font	texture
+	{83,	1,	1,	0,	1,	3,	4,	11,	14,	4,	0},	// latin capital letter s
+	{105,	13,	1,	0,	1,	3,	4,	3,	14,	4,	0},	// latin small letter i
+	{32,	17,	1,	6,	0,	15,	6,	0,	0,	4,	0},	// space
+	{232,	18,	1,	0,	1,	3,	4,	9,	14,	4,	0},	// latin small letter e with grave
+	{118,	28,	1,	0,	1,	6,	4,	9,	11,	4,	0},	// latin small letter v
+	{101,	38,	1,	0,	1,	6,	4,	10,	11,	4,	0},	// latin small letter e
+	{114,	49,	1,	0,	1,	7,	4,	8,	10,	4,	0},	// latin small letter r
+	{102,	58,	1,	0,	1,	3,	4,	6,	14,	4,	0},	// latin small letter f
+	{99,	65,	1,	0,	1,	6,	4,	9,	11,	4,	0},	// latin small letter c
+	{97,	75,	1,	0,	1,	6,	4,	9,	11,	4,	0},	// latin small letter a
+	{116,	85,	1,	0,	1,	4,	4,	7,	13,	4,	0},	// latin small letter t
+	{111,	93,	1,	0,	1,	7,	4,	10,	10,	4,	0},	// latin small letter o
+	{117,	104,	1,	0,	1,	7,	4,	9,	10,	4,	0},	// latin small letter u
+	{110,	114,	1,	0,	1,	7,	4,	9,	10,	4,	0},	// latin small letter n
+	{46,	124,	1,	0,	1,	14,	4,	3,	3,	4,	0},	// full stop
+	{112,	128,	1,	0,	1,	7,	0,	9,	14,	4,	0},	// latin small letter p
+	{103,	138,	1,	0,	1,	6,	0,	9,	15,	4,	0},	// latin small letter g
+	{40,	148,	1,	0,	1,	2,	0,	5,	19,	4,	0},	// left parenthesis
+	{79,	154,	1,	0,	1,	3,	3,	12,	15,	4,	0},	// latin capital letter o
+	{70,	167,	1,	0,	1,	3,	4,	10,	14,	4,	0},	// latin capital letter f
+	{41,	178,	1,	0,	1,	2,	0,	5,	19,	4,	0},	// right parenthesis
+	{108,	184,	1,	0,	1,	3,	4,	3,	14,	4,	0},	// latin small letter l
+	{109,	188,	1,	0,	1,	6,	4,	15,	11,	4,	0},	// latin small letter m
+	{100,	204,	1,	0,	1,	3,	4,	9,	14,	4,	0},	// latin small letter d
+	{39,	214,	1,	0,	1,	3,	12,	2,	6,	4,	0},	// apostrophe
+	{115,	217,	1,	0,	1,	7,	4,	9,	10,	4,	0},	// latin small letter s
+	{122,	227,	1,	0,	1,	7,	4,	9,	10,	4,	0},	// latin small letter z
+	{78,	237,	1,	0,	1,	3,	4,	13,	14,	4,	0},	// latin capital letter n
+	{73,	251,	1,	0,	1,	3,	4,	3,	14,	4,	0},	// latin capital letter i
+	{84,	255,	1,	0,	1,	3,	4,	11,	14,	4,	0},	// latin capital letter t
+	{69,	267,	1,	0,	1,	3,	4,	9,	14,	4,	0},	// latin capital letter e
+	{68,	277,	1,	0,	1,	3,	4,	12,	14,	4,	0},	// latin capital letter d
+	{71,	290,	1,	0,	1,	3,	4,	12,	14,	4,	0},	// latin capital letter g
+	{65,	303,	1,	0,	1,	3,	4,	13,	14,	4,	0},	// latin capital letter a
+	{77,	317,	1,	0,	1,	3,	4,	16,	14,	4,	0},	// latin capital letter m
+	{67,	334,	1,	0,	1,	3,	4,	12,	14,	4,	0},	// latin capital letter c
+	{85,	347,	1,	0,	1,	3,	4,	12,	14,	4,	0},	// latin capital letter u
+	{66,	360,	1,	0,	1,	3,	4,	12,	14,	4,	0},	// latin capital letter b
+	{98,	373,	1,	0,	1,	3,	4,	9,	14,	4,	0},	// latin small letter b
+	{76,	383,	1,	0,	1,	3,	4,	9,	14,	4,	0},	// latin capital letter l
+	{104,	393,	1,	0,	1,	3,	4,	9,	14,	4,	0},	// latin small letter h
+	{120,	403,	1,	0,	1,	7,	4,	9,	10,	4,	0},	// latin small letter x
+};
+
+
+// ********************************************************************************
+// *	Strings used by Italian texts in Boot
+// ********************************************************************************
+
+// TEXT_ERROR_CRITICAL
+static UTF8 Italian_825_0[] = {'S','i',' ',0xC3,0xA8,' ','v','e','r','i','f','i','c','a','t','o',' ','u','n',' ','e','r','r','o','r','e','.',0};
+static UTF8 Italian_825_1[] = {0};		// WARNING - empty string
+static UTF8 Italian_825_2[] = {'S','p','e','g','n','i',' ','(','O','F','F',')',' ','e',' ','c','o','n','t','r','o','l','l','a',' ','i','l',' ','m','a','n','u','a','l','e',' ','d',0x27,'i','s','t','r','u','z','i','o','n','i',' ','d','e','l',' ',0};
+static UTF8 Italian_825_3[] = {0};		// WARNING - empty string
+static UTF8 Italian_825_4[] = {'N','I','N','T','E','N','D','O',' ','G','A','M','E','C','U','B','E','(','T','M',')',' ',0};
+static UTF8 Italian_825_5[] = {0};		// WARNING - empty string
+static UTF8 Italian_825_6[] = {'p','e','r',' ','u','l','t','e','r','i','o','r','i',' ','i','n','d','i','c','a','z','i','o','n','i','.',0};
+static UTF8 Italian_825_7[] = {0};		// WARNING - empty string
+static UTF8 *Italian_825[] = {
+	&Italian_825_0,
+	&Italian_825_1,
+	&Italian_825_2,
+	&Italian_825_3,
+	&Italian_825_4,
+	&Italian_825_5,
+	&Italian_825_6,
+	&Italian_825_7,
+};
+
+// TEXT_ERROR_DISC_UNREADABLE
+static UTF8 Italian_826_0[] = {'I','m','p','o','s','s','i','b','i','l','e',' ','l','e','g','g','e','r','e',' ','i','l',' ','d','i','s','c','o',' ','d','i',' ','g','i','o','c','o','.',0};
+static UTF8 Italian_826_1[] = {0};		// WARNING - empty string
+static UTF8 Italian_826_2[] = {'C','o','n','s','u','l','t','a',' ','i','l',' ','m','a','n','u','a','l','e',' ','d',0x27,'i','s','t','r','u','z','i','o','n','i',' ','d','e','l',' ','N','I','N','T','E','N','D','O',' ','G','A','M','E','C','U','B','E','(','T','M',')',' ','p','e','r',' ','u','l','t','e','r','i','o','r','i',' ','i','n','d','i','c','a','z','i','o','n','i','.',' ',' ',0};
+static UTF8 Italian_826_3[] = {0};		// WARNING - empty string
+static UTF8 *Italian_826[] = {
+	&Italian_826_0,
+	&Italian_826_1,
+	&Italian_826_2,
+	&Italian_826_3,
+};
+
+// TEXT_READING_DISC
+static UTF8 Italian_827_0[] = {'L','e','t','t','u','r','a',' ','d','e','l',' ','d','i','s','c','o',' ','i','n',' ','c','o','r','s','o','.','.','.',' ',0};
+static UTF8 *Italian_827[] = {
+	&Italian_827_0,
+};
+
+// TEXT_CLOSE_DISC_COVER
+static UTF8 Italian_828_0[] = {'C','h','i','u','d','i',' ','i','l',' ','c','o','p','e','r','c','h','i','o',' ','d','e','l',' ','d','i','s','c','o','.',' ',0};
+static UTF8 *Italian_828[] = {
+	&Italian_828_0,
+};
+
+// TEXT_INSERT_GAME_DISC
+static UTF8 Italian_829_0[] = {'I','n','s','e','r','i','s','c','i',' ','i','l',' ','d','i','s','c','o',' ','d','i',' ','g','i','o','c','o',0};
+static UTF8 Italian_829_1[] = {'S','t','a','r',' ','F','o','x',' ','A','d','v','e','n','t','u','r','e','s','.',0};
+static UTF8 Italian_829_2[] = {' ',0};
+static UTF8 *Italian_829[] = {
+	&Italian_829_0,
+	&Italian_829_1,
+	&Italian_829_2,
+};
+
+// TEXT_ERROR_WRONG_DISC
+static UTF8 Italian_830_0[] = {'I','l',' ','d','i','s','c','o',' ','d','i',' ','g','i','o','c','o',' ','n','o','n',' ',0xC3,0xA8,0};
+static UTF8 Italian_830_1[] = {'S','t','a','r',' ','F','o','x',' ','A','d','v','e','n','t','u','r','e','s','.',0};
+static UTF8 Italian_830_2[] = {0};		// WARNING - empty string
+static UTF8 Italian_830_3[] = {'I','n','s','e','r','i','s','c','i',' ','i','l',' ','d','i','s','c','o',' ','d','i',' ','g','i','o','c','o',0};
+static UTF8 Italian_830_4[] = {'S','t','a','r',' ','F','o','x',' ','A','d','v','e','n','t','u','r','e','s','.',' ',0};
+static UTF8 *Italian_830[] = {
+	&Italian_830_0,
+	&Italian_830_1,
+	&Italian_830_2,
+	&Italian_830_3,
+	&Italian_830_4,
+};
+
+// DiscOpenBootError_1381
+static UTF8 Italian_1381_0[] = {'C','a','r','i','c','a','m','e','n','t','o',' ','i','n',' ','c','o','r','s','o','.','.','.',0};
+static UTF8 *Italian_1381[] = {
+	&Italian_1381_0,
+};
+
+
+
+// ********************************************************************************
+// *	Italian gametexts in Boot
+// ********************************************************************************
+
+/*
+typedef struct {
+	unsigned short	identifier;	// which game text is this
+	unsigned short	numPhrases;	// how many phrases this text has
+	unsigned char	window;		// preferred window
+	unsigned char	alignH;		// horizontal alignment
+	unsigned char	alignV;		// vertical alignment
+	unsigned char	language;	// LANGUAGE_xxx from GameTextData.h
+	UTF8		**phrases;	// pointer to <numPhrases> pointers to localised strings
+} gametextStruct;
+*/
+
+gametextStruct Boot_Italian_texts[] = {
+	{
+		TEXT_ERROR_CRITICAL, // (825)
+		8,		// numPhrases
+		129,		// window
+		0,		// horizontalAlign
+		0,		// verticalAlign
+		LANGUAGE_ITALIAN,
+		&Italian_825,	// strings table
+	},
+	{
+		TEXT_ERROR_DISC_UNREADABLE, // (826)
+		4,		// numPhrases
+		129,		// window
+		0,		// horizontalAlign
+		0,		// verticalAlign
+		LANGUAGE_ITALIAN,
+		&Italian_826,	// strings table
+	},
+	{
+		TEXT_READING_DISC, // (827)
+		1,		// numPhrases
+		129,		// window
+		0,		// horizontalAlign
+		0,		// verticalAlign
+		LANGUAGE_ITALIAN,
+		&Italian_827,	// strings table
+	},
+	{
+		TEXT_CLOSE_DISC_COVER, // (828)
+		1,		// numPhrases
+		129,		// window
+		0,		// horizontalAlign
+		0,		// verticalAlign
+		LANGUAGE_ITALIAN,
+		&Italian_828,	// strings table
+	},
+	{
+		TEXT_INSERT_GAME_DISC, // (829)
+		3,		// numPhrases
+		129,		// window
+		0,		// horizontalAlign
+		0,		// verticalAlign
+		LANGUAGE_ITALIAN,
+		&Italian_829,	// strings table
+	},
+	{
+		TEXT_ERROR_WRONG_DISC, // (830)
+		5,		// numPhrases
+		129,		// window
+		0,		// horizontalAlign
+		0,		// verticalAlign
+		LANGUAGE_ITALIAN,
+		&Italian_830,	// strings table
+	},
+	{
+		DiscOpenBootError_1381, // (1381)
+		1,		// numPhrases
+		147,		// window
+		0,		// horizontalAlign
+		0,		// verticalAlign
+		LANGUAGE_ITALIAN,
+		&Italian_1381,	// strings table
+	},
+};
+
+
+                 

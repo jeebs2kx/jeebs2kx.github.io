@@ -1,0 +1,242 @@
+/*----------------------------------------------------------------------*
+  Project: Starfox Adventures on Dinosuar Planet - For GameCube
+  File:    D:\binary\gametext/Boot/Spanish.c.new
+  Copyright 2001 Rare Ltd.  All rights reserved.
+
+  These coded instructions, statements, and computer programs contain
+  proprietary information of Rare Ltd, and are protected by Federal
+  copyright law.  They may not be disclosed to third parties or copied
+  or duplicated in any form, in whole or in part, without the prior
+  written consent of Rare Ltd.
+
+  This file is machine generated, edits will be lost!
+ *----------------------------------------------------------------------*/
+
+
+
+// ********************************************************************************
+// *	Includes
+// ********************************************************************************
+#include "GameTextData.h"
+
+
+
+// ********************************************************************************
+// *	Characters used by Spanish text in Boot
+// ********************************************************************************
+
+/*
+typedef struct {
+	UCS4		character;	// unicode number
+	unsigned short	xpos;		// coordinate of leftmost texel in font bitmap
+	unsigned short	ypos;		// coordinate of topmost texel in font bitmap
+	signed char	left;		// spacing
+	signed char	right;		// spacing
+	signed char	top;		// spacing
+	signed char	bottom;		// spacing
+	unsigned char	width;		// size
+	unsigned char	height;		// size
+	unsigned char	font;		// Index into GameTextFonts[] in GameTextData.h
+	unsigned char	texture;	// Index into Textures[] in the binary file
+} characterStruct;
+*/
+
+characterStruct Boot_Spanish_characters[] = {
+//	unicode	xpos	ypos	left	right	top	bottom	width	height	font	texture
+	{83,	1,	1,	0,	1,	3,	4,	11,	14,	4,	0},	// latin capital letter s
+	{101,	13,	1,	0,	1,	6,	4,	10,	11,	4,	0},	// latin small letter e
+	{32,	24,	1,	6,	0,	15,	6,	0,	0,	4,	0},	// space
+	{104,	25,	1,	0,	1,	3,	4,	9,	14,	4,	0},	// latin small letter h
+	{97,	35,	1,	0,	1,	6,	4,	9,	11,	4,	0},	// latin small letter a
+	{112,	45,	1,	0,	1,	7,	0,	9,	14,	4,	0},	// latin small letter p
+	{114,	55,	1,	0,	1,	7,	4,	8,	10,	4,	0},	// latin small letter r
+	{111,	64,	1,	0,	1,	7,	4,	10,	10,	4,	0},	// latin small letter o
+	{100,	75,	1,	0,	1,	3,	4,	9,	14,	4,	0},	// latin small letter d
+	{117,	85,	1,	0,	1,	7,	4,	9,	10,	4,	0},	// latin small letter u
+	{99,	95,	1,	0,	1,	6,	4,	9,	11,	4,	0},	// latin small letter c
+	{105,	105,	1,	0,	1,	3,	4,	3,	14,	4,	0},	// latin small letter i
+	{110,	109,	1,	0,	1,	7,	4,	9,	10,	4,	0},	// latin small letter n
+	{46,	119,	1,	0,	1,	14,	4,	3,	3,	4,	0},	// full stop
+	{65,	123,	1,	0,	1,	3,	4,	13,	14,	4,	0},	// latin capital letter a
+	{103,	137,	1,	0,	1,	6,	0,	9,	15,	4,	0},	// latin small letter g
+	{108,	147,	1,	0,	1,	3,	4,	3,	14,	4,	0},	// latin small letter l
+	{115,	151,	1,	0,	1,	7,	4,	9,	10,	4,	0},	// latin small letter s
+	{121,	161,	1,	0,	1,	7,	0,	9,	14,	4,	0},	// latin small letter y
+	{116,	171,	1,	0,	1,	4,	4,	7,	13,	4,	0},	// latin small letter t
+	{109,	179,	1,	0,	1,	6,	4,	15,	11,	4,	0},	// latin small letter m
+	{78,	195,	1,	0,	1,	3,	4,	13,	14,	4,	0},	// latin capital letter n
+	{73,	209,	1,	0,	1,	3,	4,	3,	14,	4,	0},	// latin capital letter i
+	{84,	213,	1,	0,	1,	3,	4,	11,	14,	4,	0},	// latin capital letter t
+	{69,	225,	1,	0,	1,	3,	4,	9,	14,	4,	0},	// latin capital letter e
+	{68,	235,	1,	0,	1,	3,	4,	12,	14,	4,	0},	// latin capital letter d
+	{79,	248,	1,	0,	1,	3,	3,	12,	15,	4,	0},	// latin capital letter o
+	{71,	261,	1,	0,	1,	3,	4,	12,	14,	4,	0},	// latin capital letter g
+	{77,	274,	1,	0,	1,	3,	4,	16,	14,	4,	0},	// latin capital letter m
+	{67,	291,	1,	0,	1,	3,	4,	12,	14,	4,	0},	// latin capital letter c
+	{85,	304,	1,	0,	1,	3,	4,	12,	14,	4,	0},	// latin capital letter u
+	{66,	317,	1,	0,	1,	3,	4,	12,	14,	4,	0},	// latin capital letter b
+	{40,	330,	1,	0,	1,	2,	0,	5,	19,	4,	0},	// left parenthesis
+	{41,	336,	1,	0,	1,	2,	0,	5,	19,	4,	0},	// right parenthesis
+	{98,	342,	1,	0,	1,	3,	4,	9,	14,	4,	0},	// latin small letter b
+	{225,	352,	1,	0,	1,	3,	4,	9,	14,	4,	0},	// latin small letter a with acute
+	{102,	362,	1,	0,	1,	3,	4,	6,	14,	4,	0},	// latin small letter f
+	{243,	369,	1,	0,	1,	3,	4,	9,	14,	4,	0},	// latin small letter o with acute
+	{76,	379,	1,	0,	1,	3,	4,	9,	14,	4,	0},	// latin capital letter l
+	{70,	389,	1,	0,	1,	3,	4,	10,	14,	4,	0},	// latin capital letter f
+	{120,	400,	1,	0,	1,	7,	4,	9,	10,	4,	0},	// latin small letter x
+	{118,	410,	1,	0,	1,	6,	4,	9,	11,	4,	0},	// latin small letter v
+	{201,	420,	1,	0,	1,	0,	4,	10,	17,	4,	0},	// latin capital letter e with acute
+};
+
+
+// ********************************************************************************
+// *	Strings used by Spanish texts in Boot
+// ********************************************************************************
+
+// TEXT_ERROR_CRITICAL
+static UTF8 Spanish_825_0[] = {'S','e',' ','h','a',' ','p','r','o','d','u','c','i','d','o',' ','u','n',' ','e','r','r','o','r','.',0};
+static UTF8 Spanish_825_1[] = {0};		// WARNING - empty string
+static UTF8 Spanish_825_2[] = {'A','p','a','g','a',' ','l','a',' ','c','o','n','s','o','l','a',' ','y',' ','c','o','n','s','u','l','t','a',' ','e','l',' ','m','a','n','u','a','l',' ','d','e',' ','i','n','s','t','r','u','c','c','i','o','n','e','s',' ','d','e',' ','N','I','N','T','E','N','D','O',' ','G','A','M','E','C','U','B','E','(','T','M',')',' ','p','a','r','a',' ','o','b','t','e','n','e','r',' ','m',0xC3,0xA1,'s',' ','i','n','f','o','r','m','a','c','i',0xC3,0xB3,'n','.',0};
+static UTF8 *Spanish_825[] = {
+	&Spanish_825_0,
+	&Spanish_825_1,
+	&Spanish_825_2,
+};
+
+// TEXT_ERROR_DISC_UNREADABLE
+static UTF8 Spanish_826_0[] = {'N','o',' ','s','e',' ','p','u','e','d','e',' ','l','e','e','r',' ','e','l',' ','d','i','s','c','o','.',0};
+static UTF8 Spanish_826_1[] = {0};		// WARNING - empty string
+static UTF8 Spanish_826_2[] = {'C','o','n','s','u','l','t','a',' ','e','l',' ','m','a','n','u','a','l',' ','d','e',' ','i','n','s','t','r','u','c','c','i','o','n','e','s',' ','d','e',' ','N','I','N','T','E','N','D','O',' ','G','A','M','E','C','U','B','E','(','T','M',')',' ','p','a','r','a',' ','o','b','t','e','n','e','r',' ','m',0xC3,0xA1,'s',' ','i','n','f','o','r','m','a','c','i',0xC3,0xB3,'n','.',' ',0};
+static UTF8 Spanish_826_3[] = {0};		// WARNING - empty string
+static UTF8 *Spanish_826[] = {
+	&Spanish_826_0,
+	&Spanish_826_1,
+	&Spanish_826_2,
+	&Spanish_826_3,
+};
+
+// TEXT_READING_DISC
+static UTF8 Spanish_827_0[] = {'L','e','y','e','n','d','o',' ','e','l',' ','d','i','s','c','o','.','.','.',0};
+static UTF8 *Spanish_827[] = {
+	&Spanish_827_0,
+};
+
+// TEXT_CLOSE_DISC_COVER
+static UTF8 Spanish_828_0[] = {'C','i','e','r','r','a',' ','l','a',' ','t','a','p','a',' ','d','e',' ','l','a',' ','c','o','n','s','o','l','a','.',0};
+static UTF8 *Spanish_828[] = {
+	&Spanish_828_0,
+};
+
+// TEXT_INSERT_GAME_DISC
+static UTF8 Spanish_829_0[] = {'C','o','l','o','c','a',' ','e','l',' ','d','i','s','c','o',' ','d','e',0};
+static UTF8 Spanish_829_1[] = {'S','t','a','r',' ','F','o','x',' ','A','d','v','e','n','t','u','r','e','s','.',0};
+static UTF8 *Spanish_829[] = {
+	&Spanish_829_0,
+	&Spanish_829_1,
+};
+
+// TEXT_ERROR_WRONG_DISC
+static UTF8 Spanish_830_0[] = {0xC3,0x89,'s','t','e',' ','n','o',' ','e','s',' ','e','l',' ','d','i','s','c','o',' ','d','e',0};
+static UTF8 Spanish_830_1[] = {'S','t','a','r',' ','F','o','x',' ','A','d','v','e','n','t','u','r','e','s','.',0};
+static UTF8 Spanish_830_2[] = {0};		// WARNING - empty string
+static UTF8 Spanish_830_3[] = {'C','o','l','o','c','a',' ','e','l',' ','d','i','s','c','o',' ','d','e',0};
+static UTF8 Spanish_830_4[] = {'S','t','a','r',' ','F','o','x',' ','A','d','v','e','n','t','u','r','e','s','.',0};
+static UTF8 *Spanish_830[] = {
+	&Spanish_830_0,
+	&Spanish_830_1,
+	&Spanish_830_2,
+	&Spanish_830_3,
+	&Spanish_830_4,
+};
+
+// DiscOpenBootError_1381
+static UTF8 Spanish_1381_0[] = {'C','a','r','g','a','n','d','o','.','.','.',0};
+static UTF8 *Spanish_1381[] = {
+	&Spanish_1381_0,
+};
+
+
+
+// ********************************************************************************
+// *	Spanish gametexts in Boot
+// ********************************************************************************
+
+/*
+typedef struct {
+	unsigned short	identifier;	// which game text is this
+	unsigned short	numPhrases;	// how many phrases this text has
+	unsigned char	window;		// preferred window
+	unsigned char	alignH;		// horizontal alignment
+	unsigned char	alignV;		// vertical alignment
+	unsigned char	language;	// LANGUAGE_xxx from GameTextData.h
+	UTF8		**phrases;	// pointer to <numPhrases> pointers to localised strings
+} gametextStruct;
+*/
+
+gametextStruct Boot_Spanish_texts[] = {
+	{
+		TEXT_ERROR_CRITICAL, // (825)
+		3,		// numPhrases
+		129,		// window
+		0,		// horizontalAlign
+		0,		// verticalAlign
+		LANGUAGE_SPANISH,
+		&Spanish_825,	// strings table
+	},
+	{
+		TEXT_ERROR_DISC_UNREADABLE, // (826)
+		4,		// numPhrases
+		129,		// window
+		0,		// horizontalAlign
+		0,		// verticalAlign
+		LANGUAGE_SPANISH,
+		&Spanish_826,	// strings table
+	},
+	{
+		TEXT_READING_DISC, // (827)
+		1,		// numPhrases
+		129,		// window
+		0,		// horizontalAlign
+		0,		// verticalAlign
+		LANGUAGE_SPANISH,
+		&Spanish_827,	// strings table
+	},
+	{
+		TEXT_CLOSE_DISC_COVER, // (828)
+		1,		// numPhrases
+		129,		// window
+		0,		// horizontalAlign
+		0,		// verticalAlign
+		LANGUAGE_SPANISH,
+		&Spanish_828,	// strings table
+	},
+	{
+		TEXT_INSERT_GAME_DISC, // (829)
+		2,		// numPhrases
+		129,		// window
+		0,		// horizontalAlign
+		0,		// verticalAlign
+		LANGUAGE_SPANISH,
+		&Spanish_829,	// strings table
+	},
+	{
+		TEXT_ERROR_WRONG_DISC, // (830)
+		5,		// numPhrases
+		129,		// window
+		0,		// horizontalAlign
+		0,		// verticalAlign
+		LANGUAGE_SPANISH,
+		&Spanish_830,	// strings table
+	},
+	{
+		DiscOpenBootError_1381, // (1381)
+		1,		// numPhrases
+		147,		// window
+		0,		// horizontalAlign
+		0,		// verticalAlign
+		LANGUAGE_SPANISH,
+		&Spanish_1381,	// strings table
+	},
+};
+
+

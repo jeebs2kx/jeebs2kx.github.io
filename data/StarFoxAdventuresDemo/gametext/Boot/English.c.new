@@ -1,0 +1,225 @@
+/*----------------------------------------------------------------------*
+  Project: Starfox Adventures on Dinosuar Planet - For GameCube
+  File:    D:/binary/gametext/Boot/English.c.new
+  Copyright 2001 Rare Ltd.  All rights reserved.
+
+  These coded instructions, statements, and computer programs contain
+  proprietary information of Rare Ltd, and are protected by Federal
+  copyright law.  They may not be disclosed to third parties or copied
+  or duplicated in any form, in whole or in part, without the prior
+  written consent of Rare Ltd.
+
+  This file is machine generated, edits will be lost!
+ *----------------------------------------------------------------------*/
+
+
+
+// ********************************************************************************
+// *	Includes
+// ********************************************************************************
+#include "GameTextData.h"
+
+
+
+// ********************************************************************************
+// *	Characters used by English text in Boot
+// ********************************************************************************
+
+/*
+typedef struct {
+	UCS4		character;	// unicode number
+	unsigned short	xpos;		// coordinate of leftmost texel in font bitmap
+	unsigned short	ypos;		// coordinate of topmost texel in font bitmap
+	signed char	left;		// spacing
+	signed char	right;		// spacing
+	signed char	top;		// spacing
+	signed char	bottom;		// spacing
+	unsigned char	width;		// size
+	unsigned char	height;		// size
+	unsigned char	font;		// Index into GameTextFonts[] in GameTextData.h
+	unsigned char	texture;	// Index into Textures[] in the binary file
+} characterStruct;
+*/
+
+characterStruct Boot_English_characters[] = {
+//	unicode	xpos	ypos	left	right	top	bottom	width	height	font	texture
+	{65,	0,	0,	0,	1,	3,	3,	13,	15,	5,	0},	// latin capital letter a
+	{110,	13,	0,	0,	1,	7,	3,	9,	11,	5,	0},	// latin small letter n
+	{32,	22,	0,	6,	0,	15,	6,	0,	0,	5,	0},	// space
+	{101,	22,	0,	0,	1,	7,	3,	9,	11,	5,	0},	// latin small letter e
+	{114,	31,	0,	0,	1,	7,	3,	8,	11,	5,	0},	// latin small letter r
+	{111,	39,	0,	0,	1,	7,	3,	10,	11,	5,	0},	// latin small letter o
+	{104,	49,	0,	0,	1,	4,	3,	10,	14,	5,	0},	// latin small letter h
+	{97,	59,	0,	0,	1,	7,	3,	9,	11,	5,	0},	// latin small letter a
+	{115,	68,	0,	0,	1,	7,	3,	10,	11,	5,	0},	// latin small letter s
+	{99,	78,	0,	0,	1,	7,	3,	9,	11,	5,	0},	// latin small letter c
+	{117,	87,	0,	0,	1,	8,	3,	9,	10,	5,	0},	// latin small letter u
+	{100,	96,	0,	0,	1,	3,	3,	9,	15,	5,	0},	// latin small letter d
+	{46,	105,	0,	0,	1,	15,	2,	3,	4,	5,	0},	// full stop
+	{84,	108,	0,	0,	1,	4,	3,	12,	14,	5,	0},	// latin capital letter t
+	{116,	120,	0,	0,	1,	5,	3,	7,	13,	5,	0},	// latin small letter t
+	{112,	127,	0,	0,	1,	7,	0,	10,	14,	5,	0},	// latin small letter p
+	{119,	137,	0,	0,	1,	8,	3,	13,	10,	5,	0},	// latin small letter w
+	{79,	150,	0,	0,	1,	3,	3,	13,	15,	5,	0},	// latin capital letter o
+	{70,	163,	0,	0,	1,	3,	3,	10,	15,	5,	0},	// latin capital letter f
+	{107,	173,	0,	0,	1,	4,	3,	9,	14,	5,	0},	// latin small letter k
+	{78,	182,	0,	0,	1,	4,	3,	12,	14,	5,	0},	// latin capital letter n
+	{73,	194,	0,	0,	1,	3,	3,	3,	15,	5,	0},	// latin capital letter i
+	{69,	197,	0,	0,	1,	3,	3,	10,	15,	5,	0},	// latin capital letter e
+	{68,	207,	0,	0,	1,	3,	3,	12,	15,	5,	0},	// latin capital letter d
+	{71,	219,	0,	0,	1,	3,	3,	12,	15,	5,	0},	// latin capital letter g
+	{77,	231,	0,	0,	1,	3,	3,	16,	15,	5,	0},	// latin capital letter m
+	{67,	247,	0,	0,	1,	3,	3,	12,	15,	5,	0},	// latin capital letter c
+	{85,	259,	0,	0,	1,	4,	3,	12,	14,	5,	0},	// latin capital letter u
+	{66,	271,	0,	0,	1,	3,	3,	12,	15,	5,	0},	// latin capital letter b
+	{40,	283,	0,	0,	1,	2,	1,	5,	18,	5,	0},	// left parenthesis
+	{41,	288,	0,	0,	1,	2,	1,	6,	18,	5,	0},	// right parenthesis
+	{105,	294,	0,	0,	1,	4,	3,	4,	14,	5,	0},	// latin small letter i
+	{108,	298,	0,	0,	1,	4,	3,	4,	14,	5,	0},	// latin small letter l
+	{102,	302,	0,	0,	1,	3,	3,	7,	15,	5,	0},	// latin small letter f
+	{98,	309,	0,	0,	1,	4,	3,	9,	14,	5,	0},	// latin small letter b
+	{80,	318,	0,	0,	1,	4,	3,	12,	14,	5,	0},	// latin capital letter p
+	{109,	330,	0,	0,	1,	7,	3,	15,	11,	5,	0},	// latin small letter m
+	{82,	345,	0,	0,	1,	4,	3,	11,	14,	5,	0},	// latin capital letter r
+	{103,	356,	0,	0,	1,	7,	0,	10,	14,	5,	0},	// latin small letter g
+	{118,	366,	0,	0,	1,	7,	3,	10,	11,	5,	0},	// latin small letter v
+	{83,	0,	18,	0,	1,	3,	3,	11,	15,	5,	0},	// latin capital letter s
+	{120,	11,	18,	0,	1,	7,	2,	9,	12,	5,	0},	// latin small letter x
+};
+
+
+// ********************************************************************************
+// *	Strings used by English texts in Boot
+// ********************************************************************************
+
+// TEXT_ERROR_CRITICAL
+static UTF8 English_825_0[] = {'A','n',' ','e','r','r','o','r',' ','h','a','s',' ','o','c','c','u','r','r','e','d','.',0};
+static UTF8 English_825_1[] = {0};		// WARNING - empty string
+static UTF8 English_825_2[] = {'T','u','r','n',' ','t','h','e',' ','p','o','w','e','r',' ','O','F','F',' ','a','n','d',' ','c','h','e','c','k',' ','t','h','e',' ','N','I','N','T','E','N','D','O',' ','G','A','M','E','C','U','B','E','(','T','M',')',' ','I','n','s','t','r','u','c','t','i','o','n',' ','B','o','o','k','l','e','t',' ','f','o','r',' ','f','u','r','t','h','e','r',' ','i','n','s','t','r','u','c','t','i','o','n','s','.',0};
+static UTF8 *English_825[] = {
+	&English_825_0,
+	&English_825_1,
+	&English_825_2,
+};
+
+// TEXT_ERROR_DISC_UNREADABLE
+static UTF8 English_826_0[] = {'T','h','e',' ','d','i','s','c',' ','c','o','u','l','d',' ','n','o','t',' ','b','e',' ','r','e','a','d','.',0};
+static UTF8 English_826_1[] = {0};		// WARNING - empty string
+static UTF8 English_826_2[] = {'P','l','e','a','s','e',' ','r','e','a','d',' ','t','h','e',' ','N','I','N','T','E','N','D','O',' ','G','A','M','E','C','U','B','E','(','T','M',')',' ','I','n','s','t','r','u','c','t','i','o','n',' ','B','o','o','k','l','e','t',' ','f','o','r',' ','m','o','r','e',' ','i','n','f','o','r','m','a','t','i','o','n','.',0};
+static UTF8 *English_826[] = {
+	&English_826_0,
+	&English_826_1,
+	&English_826_2,
+};
+
+// TEXT_READING_DISC
+static UTF8 English_827_0[] = {'R','e','a','d','i','n','g',' ','d','i','s','c','.','.','.',0};
+static UTF8 *English_827[] = {
+	&English_827_0,
+};
+
+// TEXT_CLOSE_DISC_COVER
+static UTF8 English_828_0[] = {'P','l','e','a','s','e',' ','c','l','o','s','e',' ','t','h','e',' ','D','i','s','c',' ','C','o','v','e','r','.',0};
+static UTF8 *English_828[] = {
+	&English_828_0,
+};
+
+// TEXT_INSERT_GAME_DISC
+static UTF8 English_829_0[] = {'P','l','e','a','s','e',' ','i','n','s','e','r','t',' ','a',0};
+static UTF8 English_829_1[] = {'S','t','a','r',' ','F','o','x',' ','A','d','v','e','n','t','u','r','e','s',' ','G','a','m','e',' ','D','i','s','c','.',0};
+static UTF8 *English_829[] = {
+	&English_829_0,
+	&English_829_1,
+};
+
+// TEXT_ERROR_WRONG_DISC
+static UTF8 English_830_0[] = {'T','h','i','s',' ','d','i','s','c',' ','i','s',' ','n','o','t',0};
+static UTF8 English_830_1[] = {'S','t','a','r',' ','F','o','x',' ','A','d','v','e','n','t','u','r','e','s','.',0};
+static UTF8 English_830_2[] = {0};		// WARNING - empty string
+static UTF8 English_830_3[] = {'P','l','e','a','s','e',' ','i','n','s','e','r','t',' ','a',0};
+static UTF8 English_830_4[] = {'S','t','a','r',' ','F','o','x',' ','A','d','v','e','n','t','u','r','e','s',' ','G','a','m','e',' ','D','i','s','c','.',0};
+static UTF8 *English_830[] = {
+	&English_830_0,
+	&English_830_1,
+	&English_830_2,
+	&English_830_3,
+	&English_830_4,
+};
+
+
+
+// ********************************************************************************
+// *	English gametexts in Boot
+// ********************************************************************************
+
+/*
+typedef struct {
+	unsigned short	identifier;	// which game text is this
+	unsigned short	numPhrases;	// how many phrases this text has
+	unsigned char	window;		// preferred window
+	unsigned char	alignH;		// horizontal alignment
+	unsigned char	alignV;		// vertical alignment
+	unsigned char	language;	// LANGUAGE_xxx from GameTextData.h
+	UTF8		**phrases;	// pointer to <numPhrases> pointers to localised strings
+} gametextStruct;
+*/
+
+gametextStruct Boot_English_texts[] = {
+	{
+		TEXT_ERROR_CRITICAL, // (825)
+		3,		// numPhrases
+		129,		// window
+		0,		// horizontalAlign
+		0,		// verticalAlign
+		LANGUAGE_ENGLISH,
+		&English_825,	// strings table
+	},
+	{
+		TEXT_ERROR_DISC_UNREADABLE, // (826)
+		3,		// numPhrases
+		129,		// window
+		0,		// horizontalAlign
+		0,		// verticalAlign
+		LANGUAGE_ENGLISH,
+		&English_826,	// strings table
+	},
+	{
+		TEXT_READING_DISC, // (827)
+		1,		// numPhrases
+		129,		// window
+		0,		// horizontalAlign
+		0,		// verticalAlign
+		LANGUAGE_ENGLISH,
+		&English_827,	// strings table
+	},
+	{
+		TEXT_CLOSE_DISC_COVER, // (828)
+		1,		// numPhrases
+		129,		// window
+		0,		// horizontalAlign
+		0,		// verticalAlign
+		LANGUAGE_ENGLISH,
+		&English_828,	// strings table
+	},
+	{
+		TEXT_INSERT_GAME_DISC, // (829)
+		2,		// numPhrases
+		129,		// window
+		0,		// horizontalAlign
+		0,		// verticalAlign
+		LANGUAGE_ENGLISH,
+		&English_829,	// strings table
+	},
+	{
+		TEXT_ERROR_WRONG_DISC, // (830)
+		5,		// numPhrases
+		129,		// window
+		0,		// horizontalAlign
+		0,		// verticalAlign
+		LANGUAGE_ENGLISH,
+		&English_830,	// strings table
+	},
+};
+
+
+                  

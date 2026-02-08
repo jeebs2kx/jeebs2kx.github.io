@@ -1,0 +1,244 @@
+/*----------------------------------------------------------------------*
+  Project: Starfox Adventures on Dinosuar Planet - For GameCube
+  File:    D:\binary\gametext/Boot/German.c.new
+  Copyright 2001 Rare Ltd.  All rights reserved.
+
+  These coded instructions, statements, and computer programs contain
+  proprietary information of Rare Ltd, and are protected by Federal
+  copyright law.  They may not be disclosed to third parties or copied
+  or duplicated in any form, in whole or in part, without the prior
+  written consent of Rare Ltd.
+
+  This file is machine generated, edits will be lost!
+ *----------------------------------------------------------------------*/
+
+
+
+// ********************************************************************************
+// *	Includes
+// ********************************************************************************
+#include "GameTextData.h"
+
+
+
+// ********************************************************************************
+// *	Characters used by German text in Boot
+// ********************************************************************************
+
+/*
+typedef struct {
+	UCS4		character;	// unicode number
+	unsigned short	xpos;		// coordinate of leftmost texel in font bitmap
+	unsigned short	ypos;		// coordinate of topmost texel in font bitmap
+	signed char	left;		// spacing
+	signed char	right;		// spacing
+	signed char	top;		// spacing
+	signed char	bottom;		// spacing
+	unsigned char	width;		// size
+	unsigned char	height;		// size
+	unsigned char	font;		// Index into GameTextFonts[] in GameTextData.h
+	unsigned char	texture;	// Index into Textures[] in the binary file
+} characterStruct;
+*/
+
+characterStruct Boot_German_characters[] = {
+//	unicode	xpos	ypos	left	right	top	bottom	width	height	font	texture
+	{69,	1,	1,	0,	1,	3,	4,	9,	14,	4,	0},	// latin capital letter e
+	{105,	11,	1,	0,	1,	3,	4,	3,	14,	4,	0},	// latin small letter i
+	{110,	15,	1,	0,	1,	7,	4,	9,	10,	4,	0},	// latin small letter n
+	{32,	25,	1,	6,	0,	15,	6,	0,	0,	4,	0},	// space
+	{70,	26,	1,	0,	1,	3,	4,	10,	14,	4,	0},	// latin capital letter f
+	{101,	37,	1,	0,	1,	6,	4,	10,	11,	4,	0},	// latin small letter e
+	{104,	48,	1,	0,	1,	3,	4,	9,	14,	4,	0},	// latin small letter h
+	{108,	58,	1,	0,	1,	3,	4,	3,	14,	4,	0},	// latin small letter l
+	{114,	62,	1,	0,	1,	7,	4,	8,	10,	4,	0},	// latin small letter r
+	{115,	71,	1,	0,	1,	7,	4,	9,	10,	4,	0},	// latin small letter s
+	{116,	81,	1,	0,	1,	4,	4,	7,	13,	4,	0},	// latin small letter t
+	{97,	89,	1,	0,	1,	6,	4,	9,	11,	4,	0},	// latin small letter a
+	{117,	99,	1,	0,	1,	7,	4,	9,	10,	4,	0},	// latin small letter u
+	{102,	109,	1,	0,	1,	3,	4,	6,	14,	4,	0},	// latin small letter f
+	{103,	116,	1,	0,	1,	6,	0,	9,	15,	4,	0},	// latin small letter g
+	{46,	126,	1,	0,	1,	14,	4,	3,	3,	4,	0},	// full stop
+	{66,	130,	1,	0,	1,	3,	4,	12,	14,	4,	0},	// latin capital letter b
+	{99,	143,	1,	0,	1,	6,	4,	9,	11,	4,	0},	// latin small letter c
+	{83,	153,	1,	0,	1,	3,	4,	11,	14,	4,	0},	// latin capital letter s
+	{100,	165,	1,	0,	1,	3,	4,	9,	14,	4,	0},	// latin small letter d
+	{78,	175,	1,	0,	1,	3,	4,	13,	14,	4,	0},	// latin capital letter n
+	{73,	189,	1,	0,	1,	3,	4,	3,	14,	4,	0},	// latin capital letter i
+	{84,	193,	1,	0,	1,	3,	4,	11,	14,	4,	0},	// latin capital letter t
+	{68,	205,	1,	0,	1,	3,	4,	12,	14,	4,	0},	// latin capital letter d
+	{79,	218,	1,	0,	1,	3,	3,	12,	15,	4,	0},	// latin capital letter o
+	{71,	231,	1,	0,	1,	3,	4,	12,	14,	4,	0},	// latin capital letter g
+	{65,	244,	1,	0,	1,	3,	4,	13,	14,	4,	0},	// latin capital letter a
+	{77,	258,	1,	0,	1,	3,	4,	16,	14,	4,	0},	// latin capital letter m
+	{67,	275,	1,	0,	1,	3,	4,	12,	14,	4,	0},	// latin capital letter c
+	{85,	288,	1,	0,	1,	3,	4,	12,	14,	4,	0},	// latin capital letter u
+	{40,	301,	1,	0,	1,	2,	0,	5,	19,	4,	0},	// left parenthesis
+	{41,	307,	1,	0,	1,	2,	0,	5,	19,	4,	0},	// right parenthesis
+	{44,	313,	1,	0,	1,	14,	2,	3,	5,	4,	0},	// comma
+	{109,	317,	1,	0,	1,	6,	4,	15,	11,	4,	0},	// latin small letter m
+	{119,	333,	1,	0,	1,	7,	4,	14,	10,	4,	0},	// latin small letter w
+	{111,	348,	1,	0,	1,	7,	4,	10,	10,	4,	0},	// latin small letter o
+	{122,	359,	1,	0,	1,	7,	4,	9,	10,	4,	0},	// latin small letter z
+	{107,	369,	1,	0,	1,	3,	4,	9,	14,	4,	0},	// latin small letter k
+	{45,	379,	1,	0,	1,	10,	8,	5,	3,	4,	0},	// hyphen-minus
+	{246,	385,	1,	0,	1,	4,	4,	9,	13,	4,	0},	// latin small letter o with diaeresis
+	{223,	395,	1,	0,	1,	3,	3,	11,	15,	4,	0},	// latin small letter sharp s
+	{112,	407,	1,	0,	1,	7,	0,	9,	14,	4,	0},	// latin small letter p
+	{120,	417,	1,	0,	1,	7,	4,	9,	10,	4,	0},	// latin small letter x
+	{118,	427,	1,	0,	1,	6,	4,	9,	11,	4,	0},	// latin small letter v
+	{228,	437,	1,	0,	1,	4,	4,	9,	13,	4,	0},	// latin small letter a with diaeresis
+	{76,	447,	1,	0,	1,	3,	4,	9,	14,	4,	0},	// latin capital letter l
+};
+
+
+// ********************************************************************************
+// *	Strings used by German texts in Boot
+// ********************************************************************************
+
+// TEXT_ERROR_CRITICAL
+static UTF8 German_825_0[] = {'E','i','n',' ','F','e','h','l','e','r',' ','i','s','t',' ','a','u','f','g','e','t','r','e','t','e','n','.',0};
+static UTF8 German_825_1[] = {0};		// WARNING - empty string
+static UTF8 German_825_2[] = {'B','i','t','t','e',' ','s','c','h','a','l','t','e','n',' ','S','i','e',' ','d','e','n',' ','N','I','N','T','E','N','D','O',' ','G','A','M','E','C','U','B','E','(','T','M',')',' ','a','u','s',' ','u','n','d',' ','l','e','s','e','n',' ','S','i','e',' ','d','i','e',' ','B','e','d','i','e','n','u','n','g','s','a','n','l','e','i','t','u','n','g',',',' ','u','m',' ','w','e','i','t','e','r','e',' ','I','n','f','o','r','m','a','t','i','o','n','e','n',' ','z','u',' ','e','r','h','a','l','t','e','n','.',0};
+static UTF8 *German_825[] = {
+	&German_825_0,
+	&German_825_1,
+	&German_825_2,
+};
+
+// TEXT_ERROR_DISC_UNREADABLE
+static UTF8 German_826_0[] = {'D','i','e','s','e',' ','G','a','m','e',' ','D','i','s','c',' ','k','a','n','n',' ','n','i','c','h','t',' ','g','e','l','e','s','e','n',' ','w','e','r','d','e','n','.',0};
+static UTF8 German_826_1[] = {0};		// WARNING - empty string
+static UTF8 German_826_2[] = {'B','i','t','t','e',' ','d','i','e',' ','B','e','d','i','e','n','u','n','g','s','a','n','l','e','i','t','u','n','g',' ','l','e','s','e','n',',',' ','u','m',' ','w','e','i','t','e','r','e',' ','I','n','f','o','r','m','a','t','i','o','n','e','n',' ','z','u',' ','e','r','h','a','l','t','e','n','.',0};
+static UTF8 *German_826[] = {
+	&German_826_0,
+	&German_826_1,
+	&German_826_2,
+};
+
+// TEXT_READING_DISC
+static UTF8 German_827_0[] = {'D','i','s','c',' ','w','i','r','d',' ','g','e','l','e','s','e','n','.','.','.',0};
+static UTF8 *German_827[] = {
+	&German_827_0,
+};
+
+// TEXT_CLOSE_DISC_COVER
+static UTF8 German_828_0[] = {'D','e','r',' ','D','i','s','c','-','D','e','c','k','e','l',' ','i','s','t',' ','g','e',0xC3,0xB6,'f','f','n','e','t','.',' ','B','i','t','t','e',' ','d','e','n',' ','D','i','s','c','-','D','e','c','k','e','l',' ','s','c','h','l','i','e',0xC3,0x9F,'e','n',',',' ','u','m',' ','m','i','t',' ','d','e','m',' ','S','p','i','e','l',' ','f','o','r','t','z','u','f','a','h','r','e','n',0};
+static UTF8 German_828_1[] = {0};		// WARNING - empty string
+static UTF8 *German_828[] = {
+	&German_828_0,
+	&German_828_1,
+};
+
+// TEXT_INSERT_GAME_DISC
+static UTF8 German_829_0[] = {'B','i','t','t','e',' ','l','e','g','e','n',' ','S','i','e',' ','d','i','e',0};
+static UTF8 German_829_1[] = {'S','t','a','r',' ','F','o','x',' ','A','d','v','e','n','t','u','r','e','s','-','G','a','m','e',' ','D','i','s','c',' ','e','i','n','.',0};
+static UTF8 *German_829[] = {
+	&German_829_0,
+	&German_829_1,
+};
+
+// TEXT_ERROR_WRONG_DISC
+static UTF8 German_830_0[] = {'D','i','e','s','e',' ','G','a','m','e',' ','D','i','s','c',' ','e','n','t','h',0xC3,0xA4,'l','t',' ','n','i','c','h','t',0};
+static UTF8 German_830_1[] = {'S','t','a','r',' ','F','o','x',' ','A','d','v','e','n','t','u','r','e','s','.',0};
+static UTF8 German_830_2[] = {0};		// WARNING - empty string
+static UTF8 German_830_3[] = {'B','i','t','t','e',' ','d','i','e',' ','S','t','a','r',' ','F','o','x',' ','A','d','v','e','n','t','u','r','e','s','-','G','a','m','e',' ','D','i','s','c',' ','e','i','n','l','e','g','e','n','.',0};
+static UTF8 *German_830[] = {
+	&German_830_0,
+	&German_830_1,
+	&German_830_2,
+	&German_830_3,
+};
+
+// DiscOpenBootError_1381
+static UTF8 German_1381_0[] = {'L','a','d','e','v','o','r','g','a','n','g','.','.','.',0};
+static UTF8 *German_1381[] = {
+	&German_1381_0,
+};
+
+
+
+// ********************************************************************************
+// *	German gametexts in Boot
+// ********************************************************************************
+
+/*
+typedef struct {
+	unsigned short	identifier;	// which game text is this
+	unsigned short	numPhrases;	// how many phrases this text has
+	unsigned char	window;		// preferred window
+	unsigned char	alignH;		// horizontal alignment
+	unsigned char	alignV;		// vertical alignment
+	unsigned char	language;	// LANGUAGE_xxx from GameTextData.h
+	UTF8		**phrases;	// pointer to <numPhrases> pointers to localised strings
+} gametextStruct;
+*/
+
+gametextStruct Boot_German_texts[] = {
+	{
+		TEXT_ERROR_CRITICAL, // (825)
+		3,		// numPhrases
+		129,		// window
+		0,		// horizontalAlign
+		0,		// verticalAlign
+		LANGUAGE_GERMAN,
+		&German_825,	// strings table
+	},
+	{
+		TEXT_ERROR_DISC_UNREADABLE, // (826)
+		3,		// numPhrases
+		129,		// window
+		0,		// horizontalAlign
+		0,		// verticalAlign
+		LANGUAGE_GERMAN,
+		&German_826,	// strings table
+	},
+	{
+		TEXT_READING_DISC, // (827)
+		1,		// numPhrases
+		129,		// window
+		0,		// horizontalAlign
+		0,		// verticalAlign
+		LANGUAGE_GERMAN,
+		&German_827,	// strings table
+	},
+	{
+		TEXT_CLOSE_DISC_COVER, // (828)
+		2,		// numPhrases
+		129,		// window
+		0,		// horizontalAlign
+		0,		// verticalAlign
+		LANGUAGE_GERMAN,
+		&German_828,	// strings table
+	},
+	{
+		TEXT_INSERT_GAME_DISC, // (829)
+		2,		// numPhrases
+		129,		// window
+		0,		// horizontalAlign
+		0,		// verticalAlign
+		LANGUAGE_GERMAN,
+		&German_829,	// strings table
+	},
+	{
+		TEXT_ERROR_WRONG_DISC, // (830)
+		4,		// numPhrases
+		129,		// window
+		0,		// horizontalAlign
+		0,		// verticalAlign
+		LANGUAGE_GERMAN,
+		&German_830,	// strings table
+	},
+	{
+		DiscOpenBootError_1381, // (1381)
+		1,		// numPhrases
+		147,		// window
+		0,		// horizontalAlign
+		0,		// verticalAlign
+		LANGUAGE_GERMAN,
+		&German_1381,	// strings table
+	},
+};
+
+
+                            
