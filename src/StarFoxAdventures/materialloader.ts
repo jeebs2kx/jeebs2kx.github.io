@@ -37,7 +37,7 @@ export const KNOWN_ANCIENT_WATER_TEXIDS = new Set<number>([
 ]);
 
 export const KNOWN_CUTOUT_TEXIDS_BETA = new Set<number>([
-3254, 3272, 189, // TODO: put your IDs here, e.g. 142, 511, 733
+3254, 3272, 3270, 3246, 3252, 202,189, 3248, 3273 // TODO: put your IDs here, e.g. 142, 511, 733
 ]);
 
 export const KNOWN_CUTOUT_TEXIDS_ANCIENT = new Set<number>([
